@@ -8,7 +8,10 @@ public class RightShift {
         }
     }
 
-    // метод делает сдвиг с шагом 1
+    /**
+     * метод делает сдвиг с шагом 1
+     * @param nums
+     */
     private static void shift(int[] nums) {
         int first = nums[nums.length - 1];
         for (int i = 0; i < nums.length - 1; i++) {

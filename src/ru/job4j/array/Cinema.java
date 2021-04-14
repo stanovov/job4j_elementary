@@ -16,7 +16,6 @@ public class Cinema {
 
     public static class Place {
         private int row;
-
         private int cell;
 
         public Place(int row, int cell) {

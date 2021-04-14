@@ -6,17 +6,14 @@ public class Converter {
         for (int i = 0; i < array.length; i++) {
             length += array[i].length;
         }
-
         length = (int) Math.ceil(Math.sqrt(length));
         int[] tmp = new int[length * length];
-
         int k = 0;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 tmp[k++] = array[i][j];
             }
         }
-
         k = 0;
         int[][] arrRsl = new int[length][length];
         for (int i = 0; i < arrRsl.length; i++) {
