@@ -11,4 +11,15 @@ public class Calculator {
         Calculator.plus(1, 2);
         Calculator.plus(10, 11);
     }
+
+    public double add(double first, double second) {
+        return first + second;
+    }
+
+    public double add(double first, double second, double third) {
+        return add(
+                first,
+                add(second, third)
+        );
+    }
 }
